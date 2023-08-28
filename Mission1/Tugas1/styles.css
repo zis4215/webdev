@@ -1,0 +1,174 @@
+/* Gaya CSS untuk teks di dalam kotak 1 */
+.teks_putih {
+    text-align: center;
+    color: white;
+    font-size: 30px;
+  }
+  
+  /* Gaya CSS untuk teks di dalam kotak 1 */
+  .teks_hitam {
+    text-align: center;
+    color: rgb(0, 0, 0);
+    font-size: 30px;
+  }
+  
+  /* Gaya CSS untuk kotak 1 */
+  .kotak {
+    width: 300px;
+    height: 300px;
+    background-color: #001aff;
+    border: 2px solid #000000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+  }
+  
+  /* Gaya CSS untuk kotak 2 */
+  .kotak2 {
+    width: 300px;
+    height: 100px;
+    background-color: #e5ff00;
+    border: 2px solid #000000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+  }
+  
+  /* Gaya CSS untuk kotak 3 */
+  .kotak3 {
+    width: 300px;
+    height: 100px;
+    background-color: #ff0000;
+    border: 2px solid #000000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+  }
+  
+  /* Gaya CSS untuk kotak 4 */
+  .kotak4 {
+    width: 300px;
+    height: 100px;
+    background-color: #33ff00;
+    border: 2px solid #000000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+  }
+  
+  /* Gaya CSS untuk kotak 5 */
+  .kotak5 {
+    width: 600px; /* Sama dengan lebar kotak 2 dan 3 */
+    height: 100px;
+    background-color: #000000;
+    border: 2px solid #000000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 8px;
+    left: 310px; /* Menyesuaikan dengan lebar kotak 1 */
+  }
+
+   /* Gaya CSS untuk kotak 6 */
+   .kotak6 {
+    width: 300px; /* Sama dengan lebar kotak 2 dan 3 */
+    height: 200px;
+    background-color: #522e00;
+    border: 2px solid #000000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 110px;
+    left: 310px; /* Menyesuaikan dengan lebar kotak 1 */
+  }
+
+  /* Gaya CSS untuk kotak 7 */
+  .kotak7 {
+    width: 300px; /* Sama dengan lebar kotak 2 dan 3 */
+    height: 200px;
+    background-color: #b6008e;
+    border: 2px solid #000000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 312px;
+    left: 310px; /* Menyesuaikan dengan lebar kotak 1 */
+  }
+
+   /* Gaya CSS untuk kotak 8 */
+   .kotak8 {
+    width: 300px;
+    height: 100px;
+    background-color: #ff8800;
+    border: 2px solid #000000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    bottom: 103px;
+    left: 302px; /* Menyesuaikan dengan lebar kotak 1 */
+  }
+
+
+   /* Gaya CSS untuk kotak 9 */
+   .kotak9 {
+    width: 300px;
+    height: 200px;
+    background-color: #666666;
+    border: 2px solid #000000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    bottom: 305px;
+    left: 605px; /* Menyesuaikan dengan lebar kotak 1 */
+  }
+
+     /* Gaya CSS untuk kotak 10 */
+     .kotak10 {
+        width: 150px;
+        height: 303px;
+        background-color: #ffffff;
+        border: 2px solid #000000;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: absolute;
+        top: 110px;
+        left: 611px; /* Menyesuaikan dengan lebar kotak 1 */
+      }
+
+/* Gaya CSS untuk kotak 11 */
+.kotak11 {
+    width: 147px;
+    height: 100px;
+    background-color: #ff00b3;
+    border: 2px solid #000000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 110px;
+    left: 763px; /* Menyesuaikan dengan lebar kotak 1 */
+}
+
+/* Gaya CSS untuk kotak 12 */
+.kotak12 {
+    width: 147px;
+    height: 200px;
+    background-color: #0084ff;
+    border: 2px solid #000000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 212px;
+    left: 763px; /* Menyesuaikan dengan lebar kotak 1 */
+}
