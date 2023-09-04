@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Tugas 1</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <script src="https://kit.fontawesome.com/93ba644c4b.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div class="header">
+        <p class="logo">PH.ThriftStore</p>
+        <div class="cart">
+            <span class="fa-solid fa-cart-shopping"></span>
+        </div>
+    </div>
+
+    <div class="container">
+        <div id="root"></div>
+        <div class="sidebar">
+            <div class="head">
+                <p>Keranjang Belanja</p>
+            </div>
+            <div id="cart-items">Kosong</div>
+            <div class="foot">
+                <p>Total Harga: $<span id="cart-total">0</span></p>
+            </div>
+            <div class="button-container">
+                <button id="btn-close">Tutup</button>
+                <button id="btn-next">Next</button>
+            </div>
+        </div>
+    </div>
+    
+
+    <!-- Daftar Produk -->
+    <div class="product-container">
+        <div class="product">
+            <img src="asset/baju1.avif" alt="Produk 1">
+            <h2>Produk 1</h2>
+            <p>Harga: $10</p>
+            <label for="quantity1">Jumlah:</label>
+            <input type="number" id="quantity1" value="1">
+            <button onclick="addToCart('Produk 1', 10, 'quantity1')">Tambah ke Keranjang</button>
+        </div>
+    
+        <div class="product">
+            <img src="asset/download (2).jpeg" alt="Produk 2">
+            <h2>Produk 2</h2>
+            <p>Harga: $15</p>
+            <label for="quantity2">Jumlah:</label>
+            <input type="number" id="quantity2" value="1">
+            <button onclick="addToCart('Produk 2', 15, 'quantity2')">Tambah ke Keranjang</button>
+        </div>
+
+        <div class="product">
+            <img src="asset/download (1).jpeg" alt="Produk 3">
+            <h2>Produk 3</h2>
+            <p>Harga: $20</p>
+            <label for="quantity3">Jumlah:</label>
+            <input type="number" id="quantity3" value="1">
+            <button onclick="addToCart('Produk 3', 20, 'quantity3')">Tambah ke Keranjang</button>
+        </div>
+
+        <div class="product">
+            <img src="asset/download.jpeg" alt="Produk 4">
+            <h2>Produk 4</h2>
+            <p>Harga: $5</p>
+            <label for="quantity4">Jumlah:</label>
+            <input type="number" id="quantity4" value="1">
+            <button onclick="addToCart('Produk 4', 5, 'quantity4')">Tambah ke Keranjang</button>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

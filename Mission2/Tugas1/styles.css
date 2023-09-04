@@ -1,0 +1,130 @@
+/* Resetting default styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'poppins', sans-serif;
+    font-size: 18px;
+}
+/* styles.css */
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.header {
+    height: 80px;
+    width: 70%;
+    background-color: green;
+    border-radius: 3px;
+    margin: 30px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px;
+}
+
+.header .logo {
+    font-size: 30px;
+    font-weight: bold;
+    color: white;
+}
+
+/* Cart styling */
+.cart {
+    display: flex;
+    background-color: white;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 10px;
+    border-radius: 10px;
+    width: 50px;
+}
+
+.fa-solid {
+    color: green;
+}
+
+/* Sidebar styling */
+.sidebar {
+    display: none;
+    width: 20%;
+    border-radius: 5px;
+    background-color: #d8d8d8;
+    padding: 15px;
+    text-align: center;
+    position: absolute;
+    top: 120px;
+    right: 150px;
+    height: auto;
+    box-shadow: -2px 0px 5px rgba(0, 0, 0, 0.1);
+}
+
+.head {
+    background-color: green;
+    border-radius: 3px;
+    height: 40px;
+    padding: 10px;
+    margin-bottom: 20px;
+    color: white;
+    display: flex;
+    align-items: center;
+}
+
+.foot {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px 0;
+    padding: 10px 0;
+    border-top: 1px solid #333;
+}
+
+#btn-close {
+    background-color: red; /* Ganti dengan warna latar belakang yang Anda inginkan */
+    color: white; /* Ganti dengan warna teks yang Anda inginkan */
+    border: none;
+    padding: 10px 20px;
+    margin-right: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#btn-next {
+    background-color: green; /* Ganti dengan warna latar belakang yang Anda inginkan */
+    color: white; /* Ganti dengan warna teks yang Anda inginkan */
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+
+
+/*produk*/
+
+.product-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* Maksimal 3 produk dalam satu baris */
+    grid-gap: 20px; /* Jarak antara produk */
+}
+
+.product {
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 1px solid green;
+    border-radius: 5px;
+    padding: 15px;
+    text-align: center;
+    width: 260px; /* Lebar produk */
+}
+
+.product img {
+    max-width: 100%;
+    height: auto;
+    max-height: 150px; /* Sesuaikan tinggi gambar sesuai keinginan Anda */
+}
+
